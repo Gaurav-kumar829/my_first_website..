@@ -1,0 +1,302 @@
+[
+  {
+    "id": "scan-1793488289447",
+    "date": "2026-10-31T23:11:29.447Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for our Work-from-Home Data Entry Internship. Salary ...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 7,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793488289232",
+    "date": "2026-10-31T23:11:29.232Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for our Work-from-Home Data Entry Internship. Salary ...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 7,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793488288529",
+    "date": "2026-10-31T23:11:28.529Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for our Work-from-Home Data Entry Internship. Salary ...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 7,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793488288079",
+    "date": "2026-10-31T23:11:28.079Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for our Work-from-Home Data Entry Internship. Salary ...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 7,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793488286713",
+    "date": "2026-10-31T23:11:26.713Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for our Work-from-Home Data Entry Internship. Salary ...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 7,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793488283750",
+    "date": "2026-10-31T23:11:23.750Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for our Work-from-Home Data Entry Internship. Salary ...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 7,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793488282364",
+    "date": "2026-10-31T23:11:22.364Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for our Work-from-Home Data Entry Internship. Salary ...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 7,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793488249929",
+    "date": "2026-10-31T23:10:49.929Z",
+    "type": "offer",
+    "snippet": "Registration fee 1500 required",
+    "riskScore": 63,
+    "riskLevel": "High",
+    "reasonsCount": 2,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487770843",
+    "date": "2026-10-31T23:02:50.843Z",
+    "type": "url",
+    "snippet": "https://tcs-careers.xyz/verify-deposit",
+    "riskScore": 85,
+    "riskLevel": "High",
+    "reasonsCount": 1,
+    "verdict": "Dangerous"
+  },
+  {
+    "id": "scan-1793487770834",
+    "date": "2026-10-31T23:02:50.834Z",
+    "type": "offer",
+    "snippet": "Infosys internship. Technical test and interview rounds. Apply at infosys.com/careers",
+    "riskScore": 0,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Safe / Low Risk"
+  },
+  {
+    "id": "scan-1793487770830",
+    "date": "2026-10-31T23:02:50.830Z",
+    "type": "offer",
+    "snippet": "Pay 1500 registration fee. 100% selection guaranteed.",
+    "riskScore": 88,
+    "riskLevel": "High",
+    "reasonsCount": 3,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487753284",
+    "date": "2026-10-31T23:02:33.284Z",
+    "type": "file",
+    "snippet": "sample_offer_letter.pdf",
+    "riskScore": 90,
+    "riskLevel": "High",
+    "reasonsCount": 1,
+    "verdict": "Dangerous"
+  },
+  {
+    "id": "scan-1793487729647",
+    "date": "2026-10-31T23:02:09.647Z",
+    "type": "file",
+    "snippet": "sample_offer_letter_and_joining_form.pdf",
+    "riskScore": 90,
+    "riskLevel": "High",
+    "reasonsCount": 1,
+    "verdict": "Dangerous"
+  },
+  {
+    "id": "scan-1793487607842",
+    "date": "2026-10-31T23:00:07.842Z",
+    "type": "offer",
+    "snippet": "Marketing intern at BrightWave Media Pvt Ltd, Pune. Stipend ₹8,000/month. Send CV to caree...",
+    "riskScore": 0,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Safe / Low Risk"
+  },
+  {
+    "id": "scan-1793487607840",
+    "date": "2026-10-31T23:00:07.840Z",
+    "type": "offer",
+    "snippet": "Infosys Limited is offering an 8-week software internship. Selection: online assessment an...",
+    "riskScore": 0,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Safe / Low Risk"
+  },
+  {
+    "id": "scan-1793487607838",
+    "date": "2026-10-31T23:00:07.838Z",
+    "type": "offer",
+    "snippet": "Foxline Labs Pvt. Ltd. offers a 6-month UX research internship. Stipend ₹15,000 per month....",
+    "riskScore": 0,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Safe / Low Risk"
+  },
+  {
+    "id": "scan-1793487607835",
+    "date": "2026-10-31T23:00:07.835Z",
+    "type": "offer",
+    "snippet": "Acme Analytics Pvt. Ltd. is hiring a Data Analyst Intern in Bengaluru for 3 months. Stipen...",
+    "riskScore": 0,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Safe / Low Risk"
+  },
+  {
+    "id": "scan-1793487607834",
+    "date": "2026-10-31T23:00:07.834Z",
+    "type": "offer",
+    "snippet": "Work from home data entry interns needed at a growing firm. Easy work, no experience requi...",
+    "riskScore": 50,
+    "riskLevel": "High",
+    "reasonsCount": 4,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487607832",
+    "date": "2026-10-31T23:00:07.832Z",
+    "type": "offer",
+    "snippet": "Your application is approved for our exclusive internship. Share OTP on Telegram to activa...",
+    "riskScore": 88,
+    "riskLevel": "High",
+    "reasonsCount": 4,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487607830",
+    "date": "2026-10-31T23:00:07.830Z",
+    "type": "offer",
+    "snippet": "Work from home part-time. Earn ₹60,000 per week. No experience needed. Immediate joining.",
+    "riskScore": 60,
+    "riskLevel": "High",
+    "reasonsCount": 3,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487607828",
+    "date": "2026-10-31T23:00:07.828Z",
+    "type": "offer",
+    "snippet": "Global Infosys Careers: Selected for Software Engineer Intern! 100% guaranteed placement w...",
+    "riskScore": 60,
+    "riskLevel": "High",
+    "reasonsCount": 2,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487607825",
+    "date": "2026-10-31T23:00:07.825Z",
+    "type": "offer",
+    "snippet": "TechCorp Solutions is hiring 100 web development interns. Stipend ₹30,000/month. A refunda...",
+    "riskScore": 63,
+    "riskLevel": "High",
+    "reasonsCount": 2,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487607815",
+    "date": "2026-10-31T23:00:07.815Z",
+    "type": "offer",
+    "snippet": "Offer letter from Wipro HR. To confirm your joining kit and laptop, transfer a registratio...",
+    "riskScore": 63,
+    "riskLevel": "High",
+    "reasonsCount": 2,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-1793487597818",
+    "date": "2026-10-31T22:59:57.818Z",
+    "type": "offer",
+    "snippet": "Custom internship test",
+    "riskScore": 15,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Safe"
+  },
+  {
+    "id": "scan-1793487590725",
+    "date": "2026-10-31T22:59:50.725Z",
+    "type": "file",
+    "snippet": "fake_offer_letter.pdf.exe",
+    "riskScore": 90,
+    "riskLevel": "High",
+    "reasonsCount": 1,
+    "verdict": "Dangerous"
+  },
+  {
+    "id": "scan-1793487586741",
+    "date": "2026-10-31T22:59:46.741Z",
+    "type": "url",
+    "snippet": "https://infosys-careers.xyz/apply-registration-fee",
+    "riskScore": 85,
+    "riskLevel": "High",
+    "reasonsCount": 1,
+    "verdict": "Dangerous"
+  },
+  {
+    "id": "scan-1793487564344",
+    "date": "2026-10-31T22:59:24.344Z",
+    "type": "offer",
+    "snippet": "Acme Analytics Pvt. Ltd. is hiring a Data Analyst Intern in Bengaluru for 3 months. Stipen...",
+    "riskScore": 0,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Safe / Low Risk"
+  },
+  {
+    "id": "scan-1793487559761",
+    "date": "2026-10-31T22:59:19.761Z",
+    "type": "offer",
+    "snippet": "Congratulations! You are shortlisted for work-from-home internship. Pay Rs. 1500 refundabl...",
+    "riskScore": 100,
+    "riskLevel": "High",
+    "reasonsCount": 6,
+    "verdict": "High Risk"
+  },
+  {
+    "id": "scan-init-001",
+    "date": "2026-10-31T18:30:00.000Z",
+    "type": "offer",
+    "snippet": "Acme Analytics Pvt. Ltd. hiring Data Analyst Intern in Bengaluru. Stipend ₹20,000/mo...",
+    "riskScore": 0,
+    "riskLevel": "Low",
+    "reasonsCount": 0,
+    "verdict": "Low Risk"
+  },
+  {
+    "id": "scan-init-002",
+    "date": "2026-10-31T19:15:00.000Z",
+    "type": "offer",
+    "snippet": "Work from home ₹45,000/week! Pay ₹1,200 refundable registration fee...",
+    "riskScore": 95,
+    "riskLevel": "High",
+    "reasonsCount": 3,
+    "verdict": "High Risk"
+  }
+]
