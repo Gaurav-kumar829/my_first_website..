@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OfferShield – Job & Internship Offer Scam Detection Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Offer<span>Shield</span></div>
+        <nav>
+            <a href="#scanner">Scanner</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+        <div class="status" id="backend-status">● Connecting to Backend...</div>
+    </header>
+
+    <section class="hero">
+        <div class="tag">AI-POWERED CYBER DEFENSE</div>
+        <h1>Protecting Students From <span>Job Offer Scams</span></h1>
+        <p>Verify job & internship offers, scan suspicious links & files, and detect fake interview tactics before you fall into advance-fee or identity theft traps.</p>
+        <a href="#scanner" class="main-btn">Start Free Scan</a>
+    </section>
+
+    <section class="scanner" id="scanner">
+        <div class="section-title">
+            <h2>Offer Scam Detector & Threat Center</h2>
+            <p>Paste the job message, email, or company details below to analyze risk factors.</p>
+        </div>
+
+        <div class="scanner-box">
+            <div class="tabs">
+                <button class="tab active" data-tab="offer">Job Offer Check</button>
+                <button class="tab" data-tab="simulation">Phishing Drills</button>
+                <button class="tab" data-tab="deepfake">Fake Interview Check</button>
+                <button class="tab" data-tab="scan">Link &amp; File Scan</button>
+                <button class="tab" data-tab="history">Scan History</button>
+            </div>
+
+            <!-- Tab 1: Job Offer Check -->
+            <div id="tab-offer" class="tab-content">
+                <label for="offer-text">Job Offer or Internship Text (English or Hinglish)</label>
+                <textarea id="offer-text" placeholder="Paste the message, email, or offer letter details here..."></textarea>
+                
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0">
+                    <input id="sender-email" placeholder="Recruiter Email (e.g. hr@company.com)" style="width:100%;padding:12px;background:#091322;color:white;border:1px solid #354960;border-radius:8px">
+                    <input id="company-website" placeholder="Company Website (e.g. company.com)" style="width:100%;padding:12px;background:#091322;color:white;border:1px solid #354960;border-radius:8px">
+                </div>
+
+                <div class="samples" id="sample-chips"></div>
+
+                <button class="scan-btn" id="scan-offer-btn">Scan Offer Now</button>
+
+                <div class="result hidden" id="result-box">
+                    <div class="score-circle"><span id="score-val">0</span><small>/100</small></div>
+                    <h3 id="verdict-title">Verdict</h3>
+                    <p id="description">Summary will appear here.</p>
+                    <div id="signals-container" style="margin-top:16px"></div>
+                    <div class="advice hidden" id="advice-box" style="margin-top:16px">
+                        <h4 style="color:#4de5cf;margin-bottom:6px">Recommended Next Steps</h4>
+                        <p id="advice-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab 2: Phishing Drills / Simulation -->
+            <div id="tab-simulation" class="tab-content hidden">
+                <h3 style="margin-bottom:8px">Phishing Simulation Drills</h3>
+                <p style="color:#a9b7c9;font-size:14px;margin-bottom:16px">Six realistic scenarios. Tap lines that look suspicious, then choose your verdict.</p>
+                <div id="sim-progress" style="color:#4de5cf;font-size:13px;margin-bottom:12px;font-weight:bold"></div>
+                <div id="sim-card"></div>
+            </div>
+
+            <!-- Tab 3: Deepfake & Fake Interview Check -->
+            <div id="tab-deepfake" class="tab-content hidden">
+                <h3 style="margin-bottom:8px">Fake Video Interview Behavioral Assessment</h3>
+                <p style="color:#a9b7c9;font-size:14px;margin-bottom:14px">Tick behavioral anomalies observed during your interview call.</p>
+                <div id="cues-list" style="margin-bottom:16px"></div>
+                <button class="scan-btn" id="assess-interview-btn">Assess Interview Signs</button>
+                <div id="interview-report" style="margin-top:16px"></div>
+
+                <hr style="border:0;border-top:1px solid #293c54;margin:30px 0">
+
+                <h3 style="margin-bottom:8px">Recruiter Photo / Offer Image Forensics</h3>
+                <p style="color:#a9b7c9;font-size:14px;margin-bottom:12px">Upload an image (JPEG, PNG, WebP up to 8MB) to inspect embedded AI model metadata and camera EXIF data.</p>
+                <input type="file" id="image-input" accept="image/jpeg,image/png,image/webp" style="margin-bottom:12px;color:white">
+                <div id="image-preview" style="margin-bottom:12px"></div>
+                <button class="scan-btn" id="scan-image-btn">Analyse Image Metadata</button>
+                <div id="image-report" style="margin-top:16px"></div>
+            </div>
+
+            <!-- Tab 4: Link & File Scanner -->
+            <div id="tab-scan" class="tab-content hidden">
+                <h3 style="margin-bottom:8px">Link &amp; Domain Threat Scanner</h3>
+                <p style="color:#a9b7c9;font-size:14px;margin-bottom:10px">Multi-engine analysis checking for typo-squatting, cheap TLDs, and lookalike domains.</p>
+                <input id="url-input" placeholder="https://infosys-careers.xyz/apply" style="width:100%;padding:12px;background:#091322;color:white;border:1px solid #354960;border-radius:8px">
+                <button class="scan-btn" id="scan-url-btn" style="margin-top:12px">Scan Link</button>
+                <div id="url-report" style="margin-top:16px"></div>
+
+                <hr style="border:0;border-top:1px solid #293c54;margin:30px 0">
+
+                <h3 style="margin-bottom:8px">Scan Offer Letter Document (PDF / Office)</h3>
+                <p style="color:#a9b7c9;font-size:14px;margin-bottom:10px">In-memory static inspection for disguised programs (.pdf.exe), macro exploits, and shell payloads.</p>
+                <input type="file" id="doc-file-input" style="margin-bottom:12px;color:white">
+                <button class="scan-btn" id="scan-file-btn">Scan Document</button>
+                <div id="file-report" style="margin-top:16px"></div>
+            </div>
+
+            <!-- Tab 5: Scan History -->
+            <div id="tab-history" class="tab-content hidden">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+                    <h3>Recent Scan History</h3>
+                    <button id="clear-history-btn" style="background:#23344b;border:1px solid #40536c;color:white;padding:8px 16px;border-radius:6px;cursor:pointer">Clear Log</button>
+                </div>
+                <p style="color:#a9b7c9;font-size:13px;margin-bottom:14px">Stored securely in the local JSON database without sensitive personal information.</p>
+                <div id="history-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2>Why OfferShield?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div>🧠</div>
+                <h3>Context-Aware Engine</h3>
+                <p>12 weighted signals that differentiate between real scam threats and legitimate 'no-fee' hiring policies.</p>
+            </div>
+            <div class="feature-card">
+                <div>🛡️</div>
+                <h3>Multi-Engine Scanner</h3>
+                <p>8 independent heuristics checking file magic numbers, macro threats, and typosquatted domains in memory.</p>
+            </div>
+            <div class="feature-card">
+                <div>🔍</div>
+                <h3>Deepfake &amp; AI Analysis</h3>
+                <p>Detects synthetic interview red flags (lip sync, remote access) and reads embedded image generator signatures.</p>
+            </div>
+            <div class="feature-card">
+                <div>⚡</div>
+                <h3>Zero Cost &amp; Privacy</h3>
+                <p>Runs entirely locally with Node.js and Express.js, with zero external paid API dependencies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About OfferShield</h2>
+        <p>OfferShield was built to protect students, fresh graduates, and interns from advance-fee scams, credential harvesting, and fraudulent recruiter operations.</p>
+        <p class="note">If money was transferred, report immediately at cybercrime.gov.in or call national cyber helpline 1930.</p>
+    </section>
+
+    <footer>
+        <p>OfferShield &middot; Job &amp; Internship Offer Scam Detection Platform &middot; Built with Node.js &amp; Express.js</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
